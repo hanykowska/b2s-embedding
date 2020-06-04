@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- This is a comment (CTRL + /) -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Embedding with DSthirteam 👣</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>
+      Embedded Analytics with DSthirteam
+    </h1>
+    <div>
+      <!-- pretty much a container for a website -->
+      <button id="hideButton">✖ Hide the Viz</button>
+      <button id="showButton">✔ Show the Viz</button>
+      <button id="exportPDF">📄 Export PDF</button>
+      <button id="exportImage">📊 Export Image</button>
+      <button id="exportPPT">📚 Export PPT</button>
+    </div>
+    <div>
+      <input type="number" placeholder="Min Value" id="minValue" />
+      <input type="number" placeholder="Max Value" id="maxValue" />
+      <button id="applyFilter">Apply Filter</button>
+      <button id="clearFilter">Clear Filter</button>
+    </div>
+    <div id="vizContainer"><!-- usually vizContainer in tableau --></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

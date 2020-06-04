@@ -1,0 +1,41 @@
+/* If you want to reference a HTML element, use the html element (h1, h2 etc)
+If you want to reference a class, class="button", use .button 
+If you want to reference a class within a element, use element.class (h1.center = header 1 with the class="center")
+If you want to reference a id, id="vizContainer" use #vizContainer */
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 350%;
+  color: rgb(53, 151, 211);
+}
+
+/* reference elements by id by preceding the id with # */
+#hideButton {
+  border-radius: 35px;
+}
+
+button {
+  border-radius: 35px;
+  border-color: rgb(53, 151, 211);
+  background-color: rgb(53, 151, 211);
+  color: aliceblue;
+  box-shadow: 1px 1px 1px 0px rgb(192, 192, 192);
+}
+
+body {
+  margin: auto;
+  width: 1050px;
+}
+
+div {
+  margin-bottom: 7px;
+}
+
+#vizContainer {
+  border-radius: 35px;
+  box-shadow: 2px 2px 2px 0px rgb(192, 192, 192);
+}
+
+input {
+  border-radius: 35px;
+}
